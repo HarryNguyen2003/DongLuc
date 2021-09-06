@@ -1,0 +1,59 @@
+@media(max-width:740px){
+    .s-col-full{
+        width:100%;
+    }
+    .mobile-mrt-8{
+        margin-top:8px;
+    }
+    .mobile-mrt-16{
+        margin-top:16px;
+    }
+    #header{
+        overflow:hidden;
+    }
+    #nav > li{
+        width:100%;
+        display:block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position:initial;
+        background-color:#333;
+    }
+    #nav .subnav a{
+        color:#fff;
+    }
+    #header .hearder-search{
+        display:none;
+    }
+    #nav > li:hover > a,
+    .subnav li:hover a {
+    color:#000;
+    background-color:#ccc;
+    }
+    .open-menu{
+        height: auto !important;
+    }
+    #header .mobile-menu{
+        display:inline-block;
+    }
+    .subnav>li{
+        padding:2px 16px;
+    }
+    #content .member-img{
+        width:60%;
+        margin-bottom: 16px;
+    }
+    #content .member-name{
+        margin:16px 0;
+    }
+    
+    .from-send,.places-list .places-buy-btn{
+        width:100%;
+    }
+    .apple-safari{
+          -webkit-appearance: none;
+    }
+}
